@@ -1,3 +1,5 @@
+[<img src="https://img.shields.io/travis/playframework/play-scala-compile-di-example.svg"/>](https://travis-ci.org/playframework/play-scala-compile-di-example)
+
 # Play Framework with Compile Time DI Tests
 
 This is an example of Play 2.5.x using the Scala API with manually wired compile time dependency injection.
