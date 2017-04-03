@@ -1,4 +1,4 @@
-import org.scalatest.concurrent.ScalaFutures
+import org.scalatest.concurrent.{IntegrationPatience, ScalaFutures}
 import org.scalatestplus.play._
 
 /**
@@ -7,7 +7,8 @@ import org.scalatestplus.play._
 class ServerSpec extends PlaySpec
   with BaseOneServerPerSuite
   with MyApplicationFactory
-  with ScalaFutures {
+  with ScalaFutures
+  with IntegrationPatience {
 
   private implicit val implicitPort = port
 
